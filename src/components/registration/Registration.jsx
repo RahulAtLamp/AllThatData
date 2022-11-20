@@ -2,9 +2,9 @@ import React from 'react';
 import './registration.scss';
 
 // import BG from "../../images/bg.svg";
-import { HiOutlineMail } from "react-icons/hi";
-import { FiUser } from "react-icons/fi";
-import { BiMobileAlt } from "react-icons/bi";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { FiUser } from "react-icons/fi";
+// import { BiMobileAlt } from "react-icons/bi";
 
 function Registration() {
   return (
