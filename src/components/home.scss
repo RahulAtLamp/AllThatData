@@ -1,9 +1,19 @@
 .home-main {
     min-height: 100vh;
     min-width: 100%;
-    
-    p{
+
+    .tagline {
+        color: #ffffff;
         margin-top: 0;
+        padding: 120px 10px 10px 80px;
+        font-size: 60px;
+        font-family: "Alata";
+        width: 500px;
+
+        .highlight {
+            color: #fc057a;
+        }
     }
+
     // background-color: #7455d1;
 }

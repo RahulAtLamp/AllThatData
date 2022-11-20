@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import "./home.scss";
-import BIRDS from "vanta/dist/vanta.birds.min";
+import HALO from "vanta/dist/vanta.halo.min.js";
 import * as THREE from "three";
 
 function Home() {
@@ -10,16 +10,16 @@ function Home() {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        BIRDS({
+        HALO({
           el: vantaRef.current,
           THREE: THREE,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 600.0,
-          minWidth: 600.0,
-          scale: 1.0,
-          scaleMobile: 1.0
+          minHeight: 900.00,
+          minWidth: 600.00,
+          scale: 1.00,
+          scaleMobile: 1.00
         })
       );
     }
@@ -30,8 +30,8 @@ function Home() {
   return (
     <div className='home-main'>
       <div ref={vantaRef}>
-        <p style={{ color: "#fff", paddingTop: "20px" }}>
-          Reinventing COLLABORATION in the most SECURE way!
+        <p className='tagline'>
+          Reinventing <span className='highlight'>COLLABORATION</span> <br /> in the most <span className='highlight'>SECURE</span> way!
         </p>
       </div>
     </div>
