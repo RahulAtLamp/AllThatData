@@ -16,7 +16,10 @@ function Organization() {
           cupiditate in officiis, quod tenetur architecto quidem error
           voluptate.
         </div>
-        <div className="org-tag">Tagline</div>
+        <div className="org-tag">
+          We’re still not sure how we got here, but we’re excited about where
+          we’re going
+        </div>
       </div>
     </div>
   );
