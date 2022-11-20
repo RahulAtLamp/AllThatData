@@ -53,6 +53,57 @@
                 background: linear-gradient(120deg, #7455d1 30%, #d31899);
                 cursor: pointer;
             }
+            &.active {
+                background-color: #7455d1;
+            }
         }
     }
 }
+
+
+// .add-chain-main {
+//     position: fixed;
+//     width: 100vw;
+//     height: 100vh;
+//     top: 60px;
+//     background-color: rgba(255, 255, 255, 0.2);
+//     display: flex;
+//     align-items: center;
+//     align-content: center;
+
+//     .add-chain-box {
+//         width: 400px;
+//         margin: 0 auto;
+//         text-align: center;
+//         height: 180px;
+//         background: linear-gradient(180deg, #8359be 20%, #793ad8 50%, #a886fb);
+//         display: inline-flex;
+//         flex-direction: column;
+//         align-items: center;
+//         align-content: center;
+//         padding: 20px;
+//         border-radius: 20px;
+
+//         .add-chain-message {
+//             padding: 10px;
+//             flex-grow: 1;
+//             font-family: "Gilmer-Light";
+//             font-weight: 700;
+//             color: #ffffff;
+//             font-size: 20px;
+//             overflow: hidden;
+//             height: 300px;
+//         }
+
+//         .add-chain-btn {
+//             padding-top: 5px;
+//             width: 200px;
+//             font-family: "FontsFree";
+//             background: #251b43;
+//             color: #ffffff;
+//             border: 1px solid transparent;
+//             border-radius: 20px;
+//             cursor: pointer;
+//         }
+//     }
+// }
