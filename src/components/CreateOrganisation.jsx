@@ -32,6 +32,16 @@ function CreateOrganisation() {
         <div className="cut cut-short"></div>
         <label for="email" className="placeholder">Tagline</label>
       </div>
+      <div class="containerSelect">
+  <select id="select1" multiple class="selectClassName">
+    <option>HR</option>
+    <option>Frontend Dev</option>
+    <option>Backend Dev</option>
+    <option>Project Manager</option>
+    <option>Business Dev Executive</option>
+  </select>
+  <label for="select1" class="downArrow"></label>
+</div>
       <button type="text" className="submit">submit</button>
     </div>
     </div>

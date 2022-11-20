@@ -19,7 +19,7 @@
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 500px;
+    height: 700px;
     padding: 20px;
     width: 450px;
     margin-left: 411px;
@@ -132,5 +132,79 @@
   
   .submit:active {
     background-color: #06b;
+  }
+  
+//-------------------------------------------//
+// .containerSelect {
+//     position: relative;
+//     width: 150px;
+//     margin: auto;
+//     margin-top: calc(50vh - 50px);
+    
+//   }
+  
+  .selectClassName {
+    // padding: 15px 10px;
+    // -webkit-appearance: none;
+    // -moz-appearance: none;
+    // appearance: none;
+    // position: relative;
+    // font-family: "Montserrat";
+    // width: 100%;
+    // border: 1px solid #191919;
+    // border-radius: 6px;
+    // font-family: "Montserrat";
+    // background: transparent;
+    // cursor: pointer;
+    // color: white;
+    // outline:none;
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+    margin: 30px 0;
+  }
+  
+  .selectClassName > option{
+    background-color:#191919;
+  }
+  .selectClassName > option:hover{
+    background-color: #191919;
+  }
+  
+  .downArrow {
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 2px solid #191919;
+    border-left: 2px solid #191919;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    color: transparent;
+    transform: rotate(-135deg);
+    right: calc(35px / 2);
+    bottom: calc(42px / 2);
+    margin: auto;
+    content: "";
+    pointer-events:none;
+  }
+  
+  .selectClassName::after {
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: "";
+    transform: rotate(45deg);
   }
   
