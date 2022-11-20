@@ -1,25 +1,18 @@
 import React from "react";
+import logo from "./web3orglogo.jfif";
 import "./organization.scss";
 
 function Organization() {
   return (
     <div>
       <div className="org-sub">
-        <img
-          className="org-img"
-          src="https://logos-world.net/wp-content/uploads/2021/03/World-Health-Organization-WHO-Emblem.png"
-        />
-        <div className="org-header">Organization Name</div>
+        <img className="org-img" src={logo} />
+        <div className="org-header">Web3 Builders</div>
         <div className="org-txt">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-          officia illo facere minus veniam quae quia molestias ipsa eum neque
-          cupiditate in officiis, quod tenetur architecto quidem error
-          voluptate.
+          We aim to improve user experiences by helping creators own and
+          monetize their content and giving them more control their data.
         </div>
-        <div className="org-tag">
-          We’re still not sure how we got here, but we’re excited about where
-          we’re going
-        </div>
+        <div className="org-tag">Build For the Future</div>
       </div>
     </div>
   );
