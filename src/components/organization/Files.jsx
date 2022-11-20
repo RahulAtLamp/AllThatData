@@ -15,7 +15,7 @@ function Files() {
   };
   return (
     <div className="subs-main">
-      <div className="subs-header">All Subscription</div>
+      <div className="subs-header">All Files</div>
       <div className="subs-imgs-main">
         <div className="subs-imgs">
           <div className="subs-img-bgs" onClick={togglePopup}>
